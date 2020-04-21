@@ -1,0 +1,7 @@
+{
+  "name": "ramadan2020",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
