@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(-75deg, #1E9E09, #035629);
+}
+@font-face {
+    font-family: bilbo;
+    src: url(../../assets/font/BilboSwashCaps-Regular.ttf);
+  }
+  .asslam{
+      font-family: bilbo;
+      color:#fff;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 30px;
+  }
+  .mosjid1{
+      width: 100%;
+      height: auto;
+      display: block;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+  }
+  .selcet_box{
+      width: 50%;
+      border-radius: 50px;
+      margin-top: 10%;
+      margin-left: auto;
+      margin-right: auto;
+  }

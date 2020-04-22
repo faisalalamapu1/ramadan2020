@@ -1,0 +1,21 @@
+
+
+<ion-content>
+<body>
+  <div class="asslam">
+    Assalamu Alaikum
+  </div>
+  <div>
+    <img class="mosjid1" src="../../assets/img/mosjid1.png" alt="">
+    <div>
+      <ion-item class="selcet_box">
+        <ion-select  [(ngModel)]="selectedVal" (ionChange)="OnChange($event)">
+          <ion-select-option *ngFor="let item of data"[value]="item.id">
+            {{item.name}}
+          </ion-select-option>
+        </ion-select>
+      </ion-item>
+    </div>
+  </div>
+</body>
+</ion-content>
