@@ -1,3 +1,34 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+body{
+  background-color: #D5FFC7;
+}
+.wht_bx{
+  background-color: #fff;
+  width: 110px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: #148414;
+  padding-top: 2px;
+}
+.box1{
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+.txt1{
+  font-size: 18px;
+  color: #189333;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+.txt2{
+  font-size: 18px;
+  color: #189333;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+}

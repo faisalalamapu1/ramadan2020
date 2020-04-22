@@ -7,14 +7,30 @@
   </div>
   <div>
     <img class="mosjid1" src="../../assets/img/mosjid1.png" alt="">
+    <div style="margin-top: 15%; " class="title">Choose Language</div>
     <div>
       <ion-item class="selcet_box">
-        <ion-select  [(ngModel)]="selectedVal" (ionChange)="OnChange($event)">
+        <ion-select class="select_text"  [(ngModel)]="selectedVal" (ionChange)="OnChange($event)">
           <ion-select-option *ngFor="let item of data"[value]="item.id">
             {{item.name}}
           </ion-select-option>
         </ion-select>
       </ion-item>
+    </div>
+    <div style="margin-top: 5%; " class="title">Choose Your District</div>
+    <div>
+      <ion-item class="selcet_box">
+        <ion-select class="select_text"  [(ngModel)]="selectedVal1" (ionChange)="OnChange($event)">
+          <ion-select-option *ngFor="let item of district"[value]="item.id">
+            {{item.name}}
+          </ion-select-option>
+        </ion-select>
+      </ion-item>
+    </div>
+    <div>
+      <ion-button class="nxt" (click)="onClick()" expand="block" fill="clear" shape="round" href="/tabs/tab1">
+        Next
+      </ion-button>
     </div>
   </div>
 </body>

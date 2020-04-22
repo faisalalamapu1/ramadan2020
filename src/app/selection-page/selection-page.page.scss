@@ -1,10 +1,6 @@
 body{
     background-image: linear-gradient(-75deg, #1E9E09, #035629);
 }
-@font-face {
-    font-family: bilbo;
-    src: url(../../assets/font/BilboSwashCaps-Regular.ttf);
-  }
   .asslam{
       font-family: bilbo;
       color:#fff;
@@ -20,10 +16,35 @@ body{
       bottom: 0px;
       right: 0px;
   }
+  .title{
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+  }
+  
   .selcet_box{
       width: 50%;
       border-radius: 50px;
-      margin-top: 10%;
+      margin-top: 2%;
       margin-left: auto;
       margin-right: auto;
   }
+select-text{
+    min-width: 50px !important;
+}
+.select_text{
+    color: red($color: #ce4141);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% !important;
+}
+.nxt{
+    background-color: #035629;
+    color: #fff;
+    font-size: 14px;
+    width: 20%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}

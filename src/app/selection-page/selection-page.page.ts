@@ -7,16 +7,22 @@ import { Platform } from '@ionic/angular';
   styleUrls: ['./selection-page.page.scss'],
 })
 export class SelectionPagePage implements OnInit {
-  selectedVal:number=102;
+  selectedVal:number=101;
+  selectedVal1:number=201;
   data: any[]=[];
+  district:any[]=[];
   constructor(private platform:Platform) {
     this.platform.ready().then(()=>{
-      this.data =[{id:101, name:"Bangla"},{id:102, name:"English"}]
+      this.data =[{id:101, name:"বাংলা"},{id:102, name:"English"}]
+
+    })
+    this.platform.ready().then(()=>{
+      this.district =[{id:201, name:"Dhaka"},{id:202, name:"Khulna"}]
 
     })
    }
    OnChange(event){
-     alert("you have selected" + event.target.value);
+     
    }
   ngOnInit() {
   }
